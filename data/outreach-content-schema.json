@@ -1,0 +1,29 @@
+{
+  "personalizedMessages": [
+    {
+      "targetEmail": "example@company.com",
+      "targetName": "John Doe",
+      "company": "Example Corp",
+      "subject": "QuantXData MCP - Perfect for your crypto agents",
+      "bodyPlainText": "Hi John,\n\nSaw your work on the trading agent repo. Impressive execution.\n\nNoticed you're using CCXT for exchange data. QuantXData's MCP server gives you instant access to 123 exchanges without rate limits — perfect for autonomous agents.\n\nWorth a quick look?\n\nBest,\nArpit",
+      "bodyHtml": "<p>Hi John,</p><p>Saw your work on the trading agent repo. Impressive execution.</p><p>Noticed you're using CCXT for exchange data. QuantXData's MCP server gives you instant access to 123 exchanges without rate limits — perfect for autonomous agents.</p><p>Worth a quick look?</p><p>Best,<br>Arpit</p>",
+      "channel": "email",
+      "personalizationNotes": "Referenced specific GitHub repo activity"
+    }
+  ],
+  "icpTemplates": [
+    {
+      "templateId": "icp1-hook1",
+      "icpCategory": "AI Agent Builders",
+      "subject": "MCP server for crypto agent data",
+      "bodyTemplate": "Hi {{name}},\n\nSaw {{personalization_hook}}.\n\nQuantXData's MCP server gives AI agents instant access to 123 crypto exchanges. Perfect for {{use_case}}.\n\nWorth exploring?\n\nBest,\nArpit",
+      "variables": ["name", "personalization_hook", "use_case"]
+    }
+  ],
+  "metadata": {
+    "generatedBy": "Ghost",
+    "generatedAt": "2026-03-15T00:00:00Z",
+    "totalMessages": 20,
+    "totalTemplates": 12
+  }
+}

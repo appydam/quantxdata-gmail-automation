@@ -1,0 +1,33 @@
+{
+  "name": "quantxdata-gmail-automation",
+  "version": "1.0.0",
+  "description": "Gmail outreach automation for QuantXData leads using Mission Control integration engine",
+  "main": "dist/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "clean": "rm -rf dist",
+    "rebuild": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "gmail",
+    "automation",
+    "outreach",
+    "email",
+    "quantxdata",
+    "mission-control"
+  ],
+  "author": "Forge Agent",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^22.10.5",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
