@@ -1,0 +1,34 @@
+{
+  "personalizedMessages": [
+    {
+      "targetEmail": "test@example.com",
+      "targetName": "Test User 1",
+      "company": "Example Corp",
+      "subject": "[PLACEHOLDER] QuantXData - Crypto Market Data for Example Corp",
+      "bodyPlainText": "Hi Test User 1,\n\nThis is a PLACEHOLDER draft created to demonstrate Gmail API integration functionality.\n\nQuantXData provides institutional-grade cryptocurrency market data.\n\nBest regards,\nArpit",
+      "channel": "email"
+    },
+    {
+      "targetEmail": "demo@test.com",
+      "targetName": "Test User 2",
+      "company": "Demo Inc",
+      "subject": "[PLACEHOLDER] QuantXData - Real-time Crypto Analytics",
+      "bodyPlainText": "Hi Test User 2,\n\nThis is a PLACEHOLDER draft to verify Gmail integration.\n\nOur platform delivers real-time crypto market intelligence.\n\nBest regards,\nArpit",
+      "channel": "email"
+    },
+    {
+      "targetEmail": "sample@demo.com",
+      "targetName": "Test User 3",
+      "company": "Sample LLC",
+      "subject": "[PLACEHOLDER] QuantXData - Institutional Data Solutions",
+      "bodyPlainText": "Hi Test User 3,\n\nPLACEHOLDER draft demonstrating automated email functionality.\n\nQuantXData: Professional crypto market data infrastructure.\n\nBest regards,\nArpit",
+      "channel": "email"
+    }
+  ],
+  "icpTemplates": [],
+  "metadata": {
+    "createdAt": "2026-03-16T08:26:00Z",
+    "purpose": "Placeholder test data for Gmail API integration verification",
+    "note": "These are NOT real outreach targets - placeholder for functionality proof"
+  }
+}
